@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { Grid, GridColumn as Column } from '@progress/kendo-react-grid';
+import { Grid, GridColumn as Column, GridToolbar } from '@progress/kendo-react-grid';
+import { Input } from '@progress/kendo-react-inputs';
 import axios from 'axios';
 
 const App = () => {
   const [pokemon, setPokemon] = useState([]);
-  const [filter, setFilter] = useState({});
+  const [filter, setFilter] = useState('');
 
   useEffect(() => {
     axios.get('https://pokeapi.co/api/v2/pokemon?limit=100')
@@ -18,13 +19,22 @@ const App = () => {
       });
   }, []);
 
+  const handleFilterChange = (event) => {
+    setFilter(event.target.value);
+  }
+
   return (
     <Grid
       data={pokemon.filter(p => 
-        String(p.name).toLowerCase().includes(filter.name || '')
+        String(p.name).toLowerCase().includes(filter.toLowerCase())
       )}
     >
-      console.log(pokemon)
+      <GridToolbar>
+        <div className="k-toolbar-spacer" />
+        <div>
+          <Input placeholder="Filter by name..." onChange={handleFilterChange} />
+        </div>
+      </GridToolbar>
       <Column field="id" title="ID" />
       <Column field="sprites" title="Image" cell={(props) =>
         <img src={props.dataItem.sprites.front_default} alt={props.dataItem.name} />
@@ -38,7 +48,6 @@ const App = () => {
       <Column field="abilities" title="Abilities" cell={(props) =>
         props.dataItem.abilities.map(ability => ability.ability.name).join(', ')
       } />
-
     </Grid>
   );
 };
