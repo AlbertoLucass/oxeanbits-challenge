@@ -40,7 +40,7 @@ body {
 }
 
 .k-grid-content {
-  height: 450px;
+  height: 410px;
   overflow: auto;
 }
 
@@ -53,3 +53,47 @@ body {
 .k-grid th {
   text-align: center;
 }
+
+.k-grid-toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.k-grid-toolbar input {
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 200px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .k-widget table {
+     border: 0;
+  }
+  .k-widget table thead, table colgroup {
+     display: none;
+  }
+  .k-widget table tr {
+     margin-bottom: 10px;
+     display: block;
+     border-bottom: 2px solid #ddd;
+     border-radius: 20px;
+  }
+  .k-widget table tr td {
+     display: block;
+     font-size: 13px;
+     border-bottom: 1px dotted #ccc;
+  }
+  .k-widget table td:before {
+     content: attr(data-label);
+     float: left;
+     text-transform: uppercase;
+     font-weight: bold;
+  }
+ }
+ 
