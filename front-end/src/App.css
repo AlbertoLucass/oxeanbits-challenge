@@ -8,9 +8,6 @@ body {
 }
 
 .app-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -37,6 +34,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 10px;
+  font-weight: bold;
 }
 
 .k-grid-content {
@@ -44,16 +42,11 @@ body {
   overflow: auto;
 }
 
-.k-grid td {
+.k-grid tr {
   text-align: center;
   padding: 10px;
-  border-bottom: 1px solid #ddd;
 }
-
-.k-grid th {
-  text-align: center;
-}
-
+ 
 .k-grid-toolbar {
   display: flex;
   justify-content: center;

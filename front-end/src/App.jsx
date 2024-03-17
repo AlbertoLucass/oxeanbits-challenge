@@ -74,6 +74,7 @@ const App = () => {
           <Column field="height" title="Height" />
           <Column field="weight" title="Weight" />
           <Column field="base_experience" title="Base XP" />
+          
         </Grid>
       </div>
     </div>
