@@ -2,7 +2,7 @@
 
                                                                                                                                                                                    
 ###   ![computer](https://user-images.githubusercontent.com/38790522/87855074-4f825500-c8ec-11ea-8bfb-604cd6efc3ae.png) Desafio
-O objetivo deste desafio é avaliar suas habilidades no desenvolvimento com os frameworks Ruby On Rails e React, bem como quaisquer integrações necessárias, a implementação de funcionalidades que executam em segundo plano de forma síncrona, sua familiaridade com o uso de hooks, a implementação de componentes do Kendo UI, a escrita de testes e a criação de uma documentação clara.
+O objetivo deste desafio é avaliar suas habilidades no desenvolvimento com o framework React, a sua familiaridade com o uso de hooks, a integração de uma API externa de sua escolha, a implementação de componentes do Kendo UI, a escrita de testes usando Jest e a criação de uma documentação clara.
 
 
 
