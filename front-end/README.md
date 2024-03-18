@@ -53,7 +53,7 @@ O projeto Oxeanbits Challenge é um aplicativo React que se integra ao PokeAPI p
 2. **Funcionalidade de pesquisa**: para pesquisar itens, insira sua consulta de pesquisa no input na parte superior do grid. A grid será atualizado automaticamente para exibir os itens que correspondem à sua consulta. Nesse caso, a pesquisa pode ser feita através de qualquer coluna(menos a coluna de imagens).
 
 
-### Solução de problemas e suporte
+### ![icons8-estado-mental-34](https://github.com/AlbertoLucass/Atividade-02-CG-Renderizacao/assets/38790522/ed782262-b301-4ed4-b12f-e088b87a5752) Solução de problemas e suporte
 
 Se você encontrar algum problema ao usar o aplicativo, verifique o seguinte:
 
@@ -61,7 +61,7 @@ Se você encontrar algum problema ao usar o aplicativo, verifique o seguinte:
 * **Disponibilidade da API**: Se a aplicação falhar ao carregar os dados, verifique se a API externa está disponível e retornando os dados conforme o esperado.
 * **Erros do console**: abra as ferramentas de desenvolvedor do seu navegador e verifique se há erros no console que possam indicar o que deu errado.
 
-### **Contribuindo para o Projeto**
+### ![icons8-thank-you-34](https://github.com/AlbertoLucass/Atividade-02-CG-Renderizacao/assets/38790522/56a42e0e-c600-4ed4-a086-e0f2ab894f1c) **Contribuindo para o Projeto**
 
 Se você estiver interessado em contribuir para o projeto Oxeanbits Challenge, siga estas etapas:
 
