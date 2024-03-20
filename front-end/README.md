@@ -2,7 +2,7 @@
 
                                                                                                                                                                     
 ###   ![computer](https://user-images.githubusercontent.com/38790522/87855074-4f825500-c8ec-11ea-8bfb-604cd6efc3ae.png) Desafio
-O objetivo deste desafio é avaliar minhas habilidades no desenvolvimento com o framework React, a sua familiaridade com o uso de hooks, a integração de uma API externa de minha escolha, a implementação de componentes do Kendo UI, a escrita de testes usando Jest e a criação de uma documentação clara.
+O objetivo deste desafio é avaliar minhas habilidades no desenvolvimento com o framework React, e familiaridade com o uso de hooks, a integração de uma API externa de minha escolha, a implementação de componentes do Kendo UI, a escrita de testes usando Jest e a criação de uma documentação clara.
 
 
 ###  ![innovation (1)](https://user-images.githubusercontent.com/38790522/87854016-024eb500-c8e5-11ea-8d88-379cc4341e51.png) Bibliotecas e tecnologias utilizadas: 
