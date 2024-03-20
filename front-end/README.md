@@ -2,7 +2,7 @@
 
                                                                                                                                                                     
 ###   ![computer](https://user-images.githubusercontent.com/38790522/87855074-4f825500-c8ec-11ea-8bfb-604cd6efc3ae.png) Desafio
-O objetivo deste desafio é avaliar minhas habilidades no desenvolvimento com o framework React, e familiaridade com o uso de hooks, a integração de uma API externa de minha escolha, a implementação de componentes do Kendo UI, a escrita de testes usando Jest e a criação de uma documentação clara.
+O objetivo deste desafio é avaliar minhas habilidades no desenvolvimento com o framework React, a sua familiaridade com o uso de hooks, a integração de uma API externa de minha escolha, a implementação de componentes do Kendo UI, a escrita de testes usando Jest e a criação de uma documentação clara.
 
 
 ###  ![innovation (1)](https://user-images.githubusercontent.com/38790522/87854016-024eb500-c8e5-11ea-8d88-379cc4341e51.png) Bibliotecas e tecnologias utilizadas: 
@@ -19,11 +19,11 @@ O objetivo deste desafio é avaliar minhas habilidades no desenvolvimento com o 
 ### <img src="https://img.icons8.com/color/30/000000/command-line.png"/> Como executar a aplicaçao
 Para clonar e executar esta aplicação, é necessário ter o [Node.JS](https://nodejs.org/en/) e o Git instalados na sua máquina.
 
-- GIT para o [Linux](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git): 
+- GIT para o [Linux](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git);
 
-- GIT para o [Mac](https://git-scm.com/download/mac): 
+- GIT para o [Mac](https://git-scm.com/download/mac);
 
-- GIT para o [Windows](https://gitforwindows.org/): 
+- GIT para o [Windows](https://gitforwindows.org/);
 
 
  
