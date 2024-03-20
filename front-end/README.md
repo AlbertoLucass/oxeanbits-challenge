@@ -2,7 +2,7 @@
 
                                                                                                                                                                     
 ###   ![computer](https://user-images.githubusercontent.com/38790522/87855074-4f825500-c8ec-11ea-8bfb-604cd6efc3ae.png) Desafio
-O objetivo deste desafio é avaliar suas habilidades no desenvolvimento com o framework React, a sua familiaridade com o uso de hooks, a integração de uma API externa de sua escolha, a implementação de componentes do Kendo UI, a escrita de testes usando Jest e a criação de uma documentação clara.
+O objetivo deste desafio é avaliar minhas habilidades no desenvolvimento com o framework React, a sua familiaridade com o uso de hooks, a integração de uma API externa de minha escolha, a implementação de componentes do Kendo UI, a escrita de testes usando Jest e a criação de uma documentação clara.
 
 
 ###  ![innovation (1)](https://user-images.githubusercontent.com/38790522/87854016-024eb500-c8e5-11ea-8d88-379cc4341e51.png) Bibliotecas e tecnologias utilizadas: 
@@ -17,7 +17,15 @@ O objetivo deste desafio é avaliar suas habilidades no desenvolvimento com o fr
 - [Poke API;](https://pokeapi.co/)
 
 ### <img src="https://img.icons8.com/color/30/000000/command-line.png"/> Como executar a aplicaçao
-Para clonar e executar esta aplicação, é necessário ter o [Node.JS](https://nodejs.org/en/) e o [Git](https://gitforwindows.org/) instalados na sua máquina.
+Para clonar e executar esta aplicação, é necessário ter o [Node.JS](https://nodejs.org/en/) e o Git instalados na sua máquina.
+
+- GIT para o [Linux](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git): 
+
+- GIT para o [Mac](https://git-scm.com/download/mac): 
+
+- GIT para o [Windows](https://gitforwindows.org/): 
+
+
  
 A partir da sua linha de comando:
 
@@ -53,7 +61,7 @@ O projeto Oxeanbits Challenge é um aplicativo React que se integra ao PokeAPI p
 2. **Funcionalidade de pesquisa**: para pesquisar itens, insira sua consulta de pesquisa no input na parte superior do grid. A grid será atualizado automaticamente para exibir os itens que correspondem à sua consulta. Nesse caso, a pesquisa pode ser feita através de qualquer coluna(menos a coluna de imagens).
 
 
-### ![icons8-estado-mental-34](https://github.com/AlbertoLucass/Atividade-02-CG-Renderizacao/assets/38790522/ed782262-b301-4ed4-b12f-e088b87a5752) Solução de problemas e suporte
+### 🛠️Solução de problemas e suporte
 
 Se você encontrar algum problema ao usar o aplicativo, verifique o seguinte:
 
@@ -70,4 +78,4 @@ Se você estiver interessado em contribuir para o projeto Oxeanbits Challenge, s
 3. **Criar uma nova branch**: Crie uma nova branch para suas alterações.
 4. **Faça suas alterações**: implemente suas alterações ou acréscimos ao projeto.
 5. **Commit and Push**: Confirme suas alterações e envie para seu repositório que fez o fork.
-6. **Abrir uma solicitação pull**: Abra uma solicitação pull do seu repositório bifurcado para o repositório original.
+6. **Abrir uma solicitação pull**: Abra uma solicitação pull do seu repositório clonado para o repositório original.

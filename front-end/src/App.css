@@ -7,40 +7,41 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-
-.app-container {
+ }
+ 
+ .app-container {
+  max-width: 900px;
+  width: 100%;
   padding: 20px;
   box-sizing: border-box;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  max-width: 900px;
-  width: 100%;
-}
-
-.grid-container {
+  margin: 0 auto;
+ }
+ 
+ .grid-container {
   max-height: 80vh;
   background-color: #fff;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.k-grid {
+ }
+ 
+ .k-grid {
   border: none;
   border-radius: 10px;
   overflow: hidden;
-}
-
-.k-grid input {
+ }
+ 
+ .k-grid input {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   margin: 0 10px;
-}
-
-.k-grid-header .k-header {
+ }
+ 
+ .k-grid-header .k-header {
   background-color: #ff6b6b;
   color: #fff;
   display: flexbox;
@@ -51,45 +52,46 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-
-.k-grid-content {
+ }
+ 
+ .k-grid-content {
   height: 380px;
   overflow: auto;
-}
-
-.k-grid tr {
+ }
+ 
+ .k-grid tr {
   text-align: center;
   padding: 10px;
-}
-
-.k-grid tr:nth-child(even) {
+ }
+ 
+ .k-grid tr:nth-child(even) {
   background-color: #f8f8f8;
-}
-
-.k-grid-toolbar {
+ }
+ 
+ .k-grid-toolbar {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
   background-color: #f8f8f8;
   border-radius: 5px;
-}
-
-.k-toolbar .k-input, .k-toolbar .k-picker {
+ }
+ 
+ .k-toolbar .k-input,
+ .k-toolbar .k-picker {
   width: 15.5em;
-}
-
-@media screen and (max-width: 800px) {
+ }
+ 
+ @media screen and (max-width: 800px) {
   .k-widget table {
     border: 0;
   }
-
+ 
   .k-widget table thead,
   table colgroup {
     display: none;
   }
-
+ 
   .k-widget table tr {
     margin-bottom: 10px;
     display: block;
@@ -98,14 +100,14 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-
+ 
   .k-widget table tr td {
     display: block;
     font-size: 13px;
     border-bottom: 1px dotted #ccc;
     padding: 10px;
   }
-
+ 
   .k-widget table td:before {
     content: attr(data-label);
     float: left;
@@ -113,4 +115,36 @@ body {
     font-weight: bold;
     margin-right: 10px;
   }
-}
+ }
+ 
+ @media screen and (max-width: 768px) {
+  .grid-container {
+    max-height: 70vh;
+  }
+ }
+ 
+ @media screen and (max-width: 480px) {
+  .k-grid-header .k-header {
+    font-size: 14px;
+    padding: 10px;
+  }
+ 
+  .k-grid-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+ 
+  .k-grid-toolbar h2 {
+    margin-bottom: 10px;
+  }
+ 
+  .k-grid-toolbar .k-input {
+    width: 100%;
+    margin: 0;
+  }
+ 
+  .k-grid-content img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+ }
