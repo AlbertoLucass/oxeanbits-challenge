@@ -1,4 +1,3 @@
-// PokemonGrid.jsx
 import React from 'react';
 import { Grid, GridColumn as Column, GridToolbar } from '@progress/kendo-react-grid';
 import { Input } from '@progress/kendo-react-inputs';
