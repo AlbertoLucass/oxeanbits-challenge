@@ -1,4 +1,3 @@
-// fetchPokemon.js
 import axios from 'axios';
 
 export const fetchPokemon = async () => {
